@@ -16,7 +16,7 @@ Run it with
 python crawler.py
 ```
 
-### Deploy to $5/month Digital Ocean Droplet
+### Deploy to $5/month Ubuntu Digital Ocean Droplet
 
 Update system, install dependencies, run Tor
 
