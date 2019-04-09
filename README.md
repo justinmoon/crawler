@@ -35,7 +35,7 @@ Update system, clone project install dependencies, run Tor
 ```
 sudo apt update
 sudo apt install python3-pip tor
-git clone git@github.com:justinmoon/crawler.git
+git clone https://github.com/justinmoon/crawler.git
 cd crawler
 pip install -r requirements.txt
 ```
