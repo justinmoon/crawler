@@ -37,7 +37,7 @@ sudo apt update
 sudo apt install python3-pip tor
 git clone https://github.com/justinmoon/crawler.git
 cd crawler
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 Run Tor & Check that it is running
