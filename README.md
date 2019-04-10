@@ -63,6 +63,18 @@ nohup python3 crawler.py &
 You should get a `crawler.log` file which captures `logging` module outputs. When you run in background as described above, you should also get a `nohup.out` file that captures the print statements in the crawler.
 
 
+### Querying the Database
+
+```
+sudo apt install sqlite3
+```
+
+Run queries in the sql folder:
+
+```
+sqlite3 crawler.db < sql/active-nodes-various-timeframes.sql
+```
+
 ### Prior Art
 
 - Peter Wuille's [bitcoin-seeder](https://github.com/sipa/bitcoin-seeder)
