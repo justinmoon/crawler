@@ -211,8 +211,8 @@ class Crawler:
 
 
 if __name__ == '__main__':
-    # Wipe the database before every run
-    db.drop_and_create_tables()
+    # Create the database if it doesn't exist
+    db.create_tables()
 
     # Run the crawler
     Crawler(num_workers=25, timeout=1).crawl()
